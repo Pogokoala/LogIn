@@ -1,9 +1,9 @@
 //import react into the bundle
 import React from "react";
-import "../styles/index.css";
-import { BrowserRouter } from "react-router-dom";
-import App from "./app.jsx";
 import ReactDOM from "react-dom";
+import "../styles/index.css";
+import App from "./app.js";
+import { BrowserRouter } from "react-router-dom";
 
 
 ReactDOM.render(
